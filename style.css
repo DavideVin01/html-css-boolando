@@ -11,9 +11,36 @@ body{
 }
 
 .container{
-    margin: 20px auto;
-    width: 1080px;  
-    background-color: #f00;
+    margin: 0 auto;
+    width: 1080px;
+    
+}
+
+.row{
+    margin: 30px;
+}
+
+/* Products */
+.product{
+    height: 500px;
+    width: calc(99% / 3 - 4px);
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.relaxed-fit{
+    background-image: url(img/1.webp);
+}
+
+.roses-tee{
+    background-image: url(img/2.webp);
+}
+
+.pastello{
+    background-image: url(img/3.webp);
 }
 
 /* Main */
+
