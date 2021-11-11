@@ -40,9 +40,64 @@ body{
     margin: 5px;
 }
 
+/* images */
+
+.relaxed-fit{
+    background-image: url(img/1.webp);
+}
+
+.relaxed-fit:hover{
+    background-image: url(img/1b.webp);
+}
+
+.roses-tee{
+    background-image: url(img/2.webp);
+}
+
+.roses-tee:hover{
+    background-image: url(img/2b.webp);
+}
+
+.pastello{
+    background-image: url(img/3.webp);
+}
+
+.pastello:hover{
+    background-image: url(img/3b.webp);
+}
+
+.tee-unisex{
+    background-image: url(img/4.webp);
+}
+
+.tee-unisex:hover{
+    background-image: url(img/4b.webp);
+}
+
+.stripe-bodice{
+    background-image: url(img/5.webp);
+}
+
+.stripe-bodice:hover{
+    background-image: url(img/5b.webp);
+}
+
+.esprit{
+    background-image: url(img/6.webp);
+}
+
+.esprit:hover{
+    background-image: url(img/6b.webp);
+}
+
+/* Main */
+
 .product-image{
     width: 350px;
     height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .image-container{
