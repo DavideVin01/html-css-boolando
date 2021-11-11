@@ -1,5 +1,5 @@
 /* Generics */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,35 +12,34 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 1080px;
-    
+    width: 1300px;
 }
 
 .row{
     margin: 30px;
 }
 
-/* Products */
+.small-text{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.title-text{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text-red{
+    color: #f00;
+    font-weight: bold;
+}
+
 .product{
-    height: 500px;
-    width: calc(99% / 3 - 4px);
     display: inline-block;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.relaxed-fit{
-    background-image: url(img/1.webp);
+.product-image{
+    width: 350px;
+    height: 500px;
 }
-
-.roses-tee{
-    background-image: url(img/2.webp);
-}
-
-.pastello{
-    background-image: url(img/3.webp);
-}
-
-/* Main */
-
